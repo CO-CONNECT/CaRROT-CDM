@@ -3,14 +3,15 @@ from .operations import OperationTools
 
 from .objects import get_cdm_class, get_cdm_decorator
 
-#can we make these imports dynamic?
+# can we make these imports dynamic?
 from .objects import (
     Person,
     ConditionOccurrence,
     VisitOccurrence,
     Measurement,
     Observation,
-    DrugExposure
+    DrugExposure,
+    DeviceExposure,
 )
 
 from .decorators import (
@@ -21,7 +22,8 @@ from .decorators import (
     define_measurement,
     define_observation,
     define_drug_exposure,
+    define_device_exposure,
     load_file,
     from_table,
-    qsub
+    qsub,
 )

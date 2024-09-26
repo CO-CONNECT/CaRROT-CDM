@@ -12,3 +12,4 @@ temp
 airflow*
 .python-version
 workflows
+.venv

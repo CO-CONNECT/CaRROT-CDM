@@ -7,4 +7,4 @@ from .procedure_occurrence import ProcedureOccurrence
 from .specimen import Specimen
 from .visit_occurrence import VisitOccurrence
 from .death import Death
-
+from .device_exposure import DeviceExposure
